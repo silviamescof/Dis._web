@@ -1,0 +1,25 @@
+.banner{
+    height:59em;
+}
+.menu{
+    background-color: black;
+    color:white;
+    
+}
+a:link{
+    text-decoration: none   
+}
+a{
+    color:white;
+    font-family: fantasy;
+    text-align: center;
+   
+}
+li{
+    text-align: center;
+    font-size:  7em;
+    padding-top: 0.5em;
+}
+.menu{
+    height: 1080px;
+}
