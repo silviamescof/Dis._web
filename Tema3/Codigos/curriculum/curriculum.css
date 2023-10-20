@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+}
+.banner{
+    height:59em;
+}
+a:link{
+    text-decoration: none ;
+    color:white;
+    
+}
+.menu{
+    height:50em;
+    font-size: 3em;
+    
+}
+.datos{
+    height:50em;
+    font-size: 3em;
+}
+.text{
+    text-align: right;
+}

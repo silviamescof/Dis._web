@@ -1,0 +1,54 @@
+<!--Crea un formulario para que un visitante se dé de alta como programador.
+Los datos opcionales son su ciudad y el teléfono, el resto es obligatorio.
+Deberá introducir su nombre y señalar que lenguajes de programación
+conoce entre javascript, php, python, nodeJS. Estos valores estarán en un
+fieldset. Además deberá responder su nivel de inglés: bajo, medio o alto.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="POST">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="nombre"><br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="mail"><br><br>
+        <label for="telefono">Telefono</label>
+        <input type="telefono" name="telefono" placeholder="Su teléfono"><br><br>
+
+        <fieldset>
+            <legend>Lenguajes que conoces </legend><br>
+        <table>
+        <tr>
+            <td><label for="javascript">Javascript</label></td>
+            <td><input type="checkbox" value="javascript" name="javascript"></td>
+        </tr>    
+        <tr>
+            <td><label for="php">PHP</label></td>
+            <td><input type="checkbox" value="php" name="php"></td>
+        </tr>
+        <tr>
+            <td><label for="nodejs">NodeJS</label></td>
+            <td><input type="checkbox" value="nodejs" name="nodejs"></td>
+        </tr>    
+        <tr>
+            <td><label for="python">Python</label></td>
+            <td><input type="checkbox" value="python" name="python"></td>
+        </tr>  
+    </table><br>
+        </fieldset><br>
+        <label for="nivel">Nivel de Inglés</label><br><br>
+        <input type="radio" value="bajo" name="nivel">Bajo<br>
+        <input type="radio" value="medio" name="nivel">Medio<br>
+        <input type="radio" value="alto" name="nivel">Alto<br><br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+    
+</body>
+</html>
