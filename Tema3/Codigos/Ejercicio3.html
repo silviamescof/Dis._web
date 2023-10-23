@@ -24,13 +24,65 @@ Anotad dichos resultados en una hoja de cálculo para futuras referencias.
     <title>Document</title>
 </head>
 <body>
-    <form>
-        <label for="nombre">Nombre</label>
-        <input type="search" name="nombre" placeholder="nombre"><br><br>
-        <label for="email">Email</label>
-        <input type="email" name="email" placeholder="mail"><br><br>
-        <label for="telefono">Telefono</label>
-        <input type="telefono" name="telefono" placeholder="Su teléfono"><br><br>
+    <form action="#" method="POST">
+        <label for="search">Search</label>
+        <input type="search" name="search"><br><br>
+
+        <label for="tel">Telefono</label>
+        <input type="tel" name="tel" ><br><br>
+
+        <label for="url">url</label>
+        <input type="url" name="url"><br><br>
+
+        <label for="email">email</label>
+        <input type="email" name="email"><br><br>
+
+        <label for="datetime">datetime</label>
+        <input type="datetime" name="datetime" ><br><br>
+
+        <label for="date">date</label>
+        <input type="date" name="date"><br><br>
+
+        <label for="month">month</label>
+        <input type="month" name="month"><br><br>
+
+        <label for="week">week</label>
+        <input type="week" name="week"><br><br>
+
+        <label for="time">time</label>
+        <input type="time" name="time"><br><br>
+
+        <label for="datetime-local">datetime-local</label>
+        <input type="datetime-local" name="datetime-local"><br><br>
+
+        <label for="number">number</label>
+        <input type="number" name="number"><br><br>
+
+        <label for="range">range</label>
+        <input type="range" name="range"><br><br>
+
+        <label for="color">color</label>
+        <input type="color" name="color"><br><br>
+
+        <label for="datalist">datalist</label>
+        <input list="lista" name="lista"><br><br>
+        <datalist id="lista">
+            <option value="Jaen">Jaen</option><br><br>
+            <option value="Sevilla">Sevilla</option><br><br>
+            <option value="Madrid">Madrid</option><br><br>
+        </datalist>
+
+        <label for="caja">CajaText</label>
+        <input type="text" name="caja" placeholder="Escribe tu texto aqui" autofocus required autocomplete="additional-name"><br><br>
+
+        <label for="caja2">CajaNumber</label>
+        <input type="number" name="caja2" autocomplete="additional-name"  min="1" max="10" step="1"><br><br>
+
+        <label for="file">File</label>
+        <input type="file" name="file" multiple ><br><br>
+
+        <input type="submit">
+
     </form>
     
 </body>
