@@ -1,0 +1,73 @@
+<!--Imagina que estás creando una página web para un libro en línea y necesitas crear
+una tabla de contenido para mostrar los capítulos del libro. Debes usar las
+siguientes etiquetas HTML: <table>, <caption>, <tr>, <td>, <th>,
+<colgroup>, <col>, <tbody>, <thead>, <tfoot> y los atributos rowspan y
+colspan según sea necesario.
+● Crea una tabla <table> que contendrá la tabla de contenido del libro.
+● Agrega una fila de encabezado <thead> a la tabla con una fila <tr>.
+● En la fila de encabezado, agrega celdas de encabezado <th> para las
+siguientes columnas: Capítulo, Título del Capítulo y Páginas.
+● Utiliza el atributo colspan para combinar las tres celdas de encabezado
+en una sola celda de encabezado que tenga el texto «Contenido del
+Libro».
+● Ahora, agrega tres filas <tr> en la sección del cuerpo <tbody> de la
+tabla para representar los primeros tres capítulos del libro.
+● Dentro de cada fila, agrega una celda de datos <td> para cada columna
+(Capítulo, Título del Capítulo y Páginas). Llena estas celdas con
+información de ejemplo para los primeros tres capítulos del libro.
+● Utiliza el atributo rowspan para combinar las celdas de datos de los
+capítulos en una sola celda para cada capítulo. Esto indicará cuántas
+filas ocupa cada capítulo.
+● Luego, agrega una fila <tr> adicional para representar el cuarto capítulo
+del libro. En este caso, el cuarto capítulo debería ocupar solo una fila.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <caption>Contenido del libro</caption>
+        <thead>
+            <th colspan="3">Capítulo</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Capítulo</th>
+                <th>Titulo del Capítulo</th>
+                <th>Paginas</th>
+            </tr>
+            <tr>
+                <td rowspan="3">1</td>
+                <td>Introduccion</td>
+                <td>1-5</td>
+            </tr>
+            <tr>
+                <td>Primeros pasos</td>
+                <td>6-12</td>
+            </tr>
+            <tr>
+                <td>Conceptos Basicos</td>
+                <td>13-20</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td>Avanzado</td>
+                <td>21-35</td>
+            </tr>
+            <tr>
+                <td>Ejemplos Practicos</td>
+                <td>36-45</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Conclusiones</td>
+                <td>46-50</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
