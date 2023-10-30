@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!--Crea una página web que incluya las siguientes características:
 Utiliza la etiqueta <img> para mostrar una imagen en tu página. Debes incluir los
 siguientes atributos:
@@ -22,14 +23,25 @@ name="description" content="Descripción de la página"> y <meta
 name="author" content="Tu Nombre">.
 Puedes agregar cualquier otro contenido o texto que desees en tu página para darle
 contexto.-->
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Silvia Mesa Cofrades">
+    <meta name="description" content="la pagina Ejercicio6.html contiene dos elementos audiovisuales que le gustan a Silvia Mesa">
+
+    <link rel="icon" href="juegos.ico" type="image/x-icon">
+    <title>Contenido incrustado</title>
 </head>
 <body>
-    <img src="C:\Users\cuent\OneDrive\Escritorio\dobby.png" alt="Dobby el Elfo Libre" width="150" height="100">
+    <h1>Contenido que le gusta a Silvia Mesa</h1>
+    <h2><a href="#video">Pulsa para ver el video </a></h2>
+    <h2><a href="#imagen">Pulsa para ver la imgen </a></h2>
+    <img name="imagen" src="dobby.png" alt="Dobby el Elfo Libre" width="800" height="500"><br>
+    <iframe name="video" width="800" height="500" src="https://www.youtube.com/embed/Z34BF9PCfYg?si=4WJR0B9ARvXSpMWN" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
 </body>
 </html>
