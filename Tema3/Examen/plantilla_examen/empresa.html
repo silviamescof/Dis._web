@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--Ejercicio 3 (35 puntos)
+Elementos de contenido, texto, tablas y elementos incrustados
+Abre el documento empresa.html y ponle como título utilizando el encabezamiento
+adecuado “Expertos en creación de proyectos web”
+Crea un contenedor en el que añadirás marcadores a las tres secciones de la página que te
+especifico a continuación:
+● “Objetivos de la empresa”
+● ”Video corporativo
+● “Tarifa de precios”
+En la sección “Objetivos de la empresa”, utilizando texto de relleno añadirás 3 párrafos que
+deben contener:
+● Contenido preformateado
+● Contenido citado de otra fuente
+● Texto subrayado
+● Texto resaltado
+● Texto en negrita
+● Una lista ordenada de 4 elementos en la que hayamos modificado el tipo para que
+nos muestre numeración romana en minúsculas empezando por el número 3.
+● Añade entre el párrafo 2 y el 3 una línea horizontal
+● Añade también, la siguiente fórmula: x1 = 3x
+4 + 3x
+2
+En la sección “Video corporativo”, debes incrustar el vídeo de youtube del siguiente vínculo:
+https://www.youtube.com/watch?v=rgx6IetE_Xs
+En la sección “Tarifa de precios”, crea una tabla que tenga la estructuras como la de la
+siguiente imagen:
+No es necesario poner los colores de fondo, aunque si que hay que poner los bordes y los
+textos que van en negrita. Utiliza la entidad HTML correspondiente para poner el símbolo $.-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>empesa</title>
+</head>
+<body>
+    <header>
+        <img src="img/banner-cabecera.png" alt="imagen desarrollo proyectos internet">
+        <h1> “Expertos en creación de proyectos web”</h1>
+        <nav>
+            <ul>
+                <li><a href="#objetivos">Objetivos de la empresa</a></li>
+                <li><a href="#video">Video Corporativo</a></li>
+                <li><a href="#tarifa">Tarifa de Precios</a></li>
+            </ul>
+        </nav>
+        <section name="objetivos" id="objetivos">
+            <h2>Objetivos de la Empresa</h2>
+            <p>
+                <pre>este   es un   texto
+                     preformateado
+                </pre>
+                <q>y esto es una cita a otra fuente</q><br>
+                <del>Este texto es subrayado</del>
+            </p>
+            <p>
+                <mark>Esto texto enfatizado</mark><br>
+                <strong>Esto es texto en negrita</strong>
+                <ol type="i" reversed>
+                    <li>item uno</li>
+                    <li>item dos</li>
+                    <li>item tres</li>
+                </ol>
+            </p>
+            <hr>
+            <p>
+                <code>
+                    x<sub>1</sub>=3x<sup>4</sup>+ 3x<sup>2</sup>
+                </code>
+            </p>
+        </section>
+        <section name="video" id="video">
+            <h2>Video Corporativo</h2>
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/rgx6IetE_Xs?si=E_IhP0ugrbOkkQLj" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </section>
+        <section name="tarifa" id="tarifa">
+            <h2>Tarifa de Precios</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>Básico</th>
+                    <th>Completo</th>
+                </tr>
+                <tr>
+                    <th>Intalacion</th>
+                    <td rowspan="2">Gratis!</td>
+                    <td>&dollar;49.99</td>
+                </tr>
+                <tr>
+                    <th>Primer Año</th>
+                    <td>&dollar;19.99</td>
+                </tr>
+                <tr>
+                    <th>Segundo año</th>
+                    <td>&dollar;9.99</td>
+                    <td>&dollar;29.99</td>
+                </tr>
+            </table>
+           
+        </section>
+    </header>
+    <section>
+
+    </section>
+    <footer>
+        <p>
+            <address>“C. San Vicente Paul, 32,
+            23740 Andújar, Jaén”
+            </address>
+        </p>
+        <p>
+            <a href="mailto:info@diw.com">info@diw.com</a>
+        </p>
+        <p>
+            +34123456789
+        </p>
+    </footer>
+</body>
+</html>

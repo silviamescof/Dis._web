@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--Ejercicio 4 (40 puntos)
+Formularios
+Abre el documento contacto.html y ponle como título utilizando el encabezamiento
+adecuado “Contacta con una empresa experta en creación de proyectos web”
+Crea un formulario de contacto que se enviará al fichero envio_formulario.php, utilizando
+cualquiera de los dos métodos de envío válidos.
+.
+El formulario, debe incluir dos agrupaciones de campos: “Datos personales” e “Otros datos”
+En la agrupación de campos, “Datos personales” pediremos:
+● Nombre (campo de tipo texto obligatorio de tamaño 15 y que será el que tendrá el
+cursor cuando se cargue la página)
+● Apellidos (campo de tipo texto obligatorio de tamaño 30)
+● Dirección (campo de tipo texto obligatorio de tamaño 50)
+● Número de teléfono (campo de tipo teléfono obligatorio de tamaño 15)
+● Email (campo de tipo email obligatorio de tamaño 30)
+● Edad (campo de tipo numérico que admitirá un mínimo de 18 y un máximo de 100)
+● Sexo (campo de tipo selector)
+En la agrupación de campos “Otros datos” pediremos:
+● Contactar con (campo de tipo radio con las opciones, “Comercial”, “Servicio técnico”,
+“Administración”)
+● Fecha preferente contacto (campo de tipo fecha)
+● Asunto Datalist en el que se incluyan las siguientes opciones “Necesito contratar un
+servicio”, “Hay un problema con mi página web”, “Tengo dudas sobre mi factura”.
+● Mensaje (campo de área de texto con 4 filas y 50 columnas)
+● Aceptar política de privacidad (campo de tipo check obligatorio-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+</head>
+<body>
+    <header>
+        <img src="img/banner-cabecera.png " alt="imagen desarrollo proyectos internet">
+        <h1>“Contacta con una empresa experta en creación de proyectos web”</h1>
+    </header>
+    <section>
+        <form action="envio_formulario.php" method="POST">
+            <fieldset>Datos personales<br><br>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" maxlength="15" required><br><br>
+                <label for="apellidos">Apellidos</label>
+                <input type="text" name="apellidos" maxlength="30" required><br><br>
+                <label for="direccion">Direccion</label>
+                <input type="text" name="direccion" maxlength="50" required><br><br>
+                <label for="telefono">Telefono</label>
+                <input type="tel" name="telefono" maxlength="15" required><br><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" maxlength="30" required><br><br>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" min="18" max="100"><br><br>
+                <label for="sexo">Sexo</label>
+                <select name="sexo">
+                    <option>Mujer</option>
+                    <option>Hombre</option>
+                </select>
+            </fieldset>
+            <fieldset>Otros datos<br><br>
+                <label for="contacto">Contactar con</label><br>
+                <input type="radio" name="contacto" value="comercial">Comercial<br>
+                <input type="radio" name="contacto" value="servicio">Servicio Tecnico<br>
+                <input type="radio" name="contacto" value="administracion">Administracion<br><br>
+                <label for="fecha">Fecha de contacto preferente</label>
+                <input type="date" name="fecha"><br><br>
+                <label for="asunto">Contactar con : </label>
+                <input list="asunto"><br><br>
+                    <datalist id="asunto">
+                        <option value="comercial">Comercial</option>
+                        <option value="servicio">Servicio Tecnico</option>
+                        <option value="administracion">Administracion</option>
+                    </datalist>
+                <label for="mensaje">Mensaje</label>
+                <input type="textarea" name="mensaje" row="4" cols="50"><br><br>
+                <label for="condiciones">Acepto la politica de privacidad</label>
+                <input type="checkbox" name="condicioens" required><br><br>
+            </fieldset>
+
+        </form>
+    </section>
+    <footer>
+        <p>
+            <address>“C. San Vicente Paul, 32,
+            23740 Andújar, Jaén”
+            </address>
+        </p>
+        <p>
+            <a href="mailto:info@diw.com">info@diw.com</a>
+        </p>
+        <p>
+            +34123456789
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Ejercicio 1 (10 puntos)
+    Estructura Básica y Metaetiquetas:
+    Abre el documento index.html. Crea la estructura básica de un documento HTML5 e incluya
+    la metaetiqueta para especificar la codificación de caracteres UTF-8, un título de página en
+    el que añadirás tu nombre, una descripción y una meta etiqueta que le indique al navegador,
+    cómo se debe ajustar y escalar el contenido en dispositivos móviles.    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pagina para una empresa de proyectos en internet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silvia Mesa Cofrades</title>
+</head>
+<body>
+    <!--Ejercicio 2 (45 puntos)
+    Elementos semánticos
+    Utiliza etiquetas semánticas de HTML5 para crear una sección de cabecera. Añade en ella
+    la imagen banner-cabecera.png que encontrarás en la carpeta de imágenes de la plantilla
+    del examen.
+    A continuación añade una etiqueta de navegación en la que añadirás una lista no ordenada
+    que contendrá vínculos a: index.html / empresa.html / contacto.html / ubicación. Los
+    vínculos abrirán las páginas anteriores y la de ubicación, abrirá en una pestaña nueva un
+    mapa de google situado sobre la ciudad de Andújar.
+    Crea ahora la sección de contenido principal del documento y una sección de pie de página.
+    En la sección pie de página añades la dirección de contacto “C. San Vicente Paul, 32,
+    23740 Andújar, Jaén” utilizando su etiqueta semántica correspondiente. Añade también un
+    vínculo al email “info@diw.com” de la empresa y a su teléfono de contacto “+34
+    123456789”.
+    Guarda el documento como index.html, copia todo su contenido y pégalo en los documentos
+    nuevos empresa.html y contacto.html.
+    Vuelve al documento index.html y en la sección principal, crea un encabezado principal con
+    el texto “Especialistas en la creación de tu proyecto web”. a continuación, crea dos
+    secciones la primera la denominarás “Noticias” y la segunda “Empresas Colaboradoras”.
+    Utiliza el encabezamiento adecuado para dar título a las secciones.
+    Dentro de la sección “Noticias”, crea 2 artículos en los que incluirás un título utilizando una
+    etiqueta de encabezado y un par de párrafos. Para rellenar los contenidos, utiliza la página
+    https://es.lipsum.com/.
+    En la sección empresas colaboradoras añadirás los logotipos de las empresas que
+    encontrarás en la carpeta de imágenes de la plantilla de y vincularás las mismas a las
+    páginas oficiales de cada una de las empresas. (https://www.apple.com/es/,
+    https://www.microsoft.com/es-es, https://www.google.com/). Los vínculos deben abrirse en
+    una pestaña nueva.
+    -->
+
+    <header>
+        <img src="img/banner-cabecera.png" alt="imagen desarrollo proyectos internet">
+        <nav>
+            <ul>
+                <li><a href="index.html">Ir a la pagina prinicpal</a></li>
+                <li><a href="empresa.html">Ir a Empresa</a></li>
+                <li><a href="contacto.html">Ir a Contacto</a></li>
+                <li><a href="https://maps.app.goo.gl/hNTbufWYmqdwG6Ku5" target="_blank">Ir a Ubicacion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section name="principal">
+            <h1>“Especialistas en la creación de tu proyecto web”.</h1>
+    </section>
+    <section name="noticias">
+        <h2>Noticias</h2>
+        <article>
+            <h3>titulo primer article de noticias</h3>
+            <p>
+                ¿Qué es Lorem Ipsum?
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas y 
+                archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar
+                de las industrias desde el año 1500, cuando un impresor
+                (N. del T. persona que se dedica a la imprenta)
+                desconocido usó una galería de textos y los mezcló de tal manera que logró
+                hacer un libro de textos especimen. No sólo sobrevivió 500 años,
+                sino que tambien ingresó como texto de relleno en documentos electrónicos,
+                quedando esencialmente igual al original. Fue popularizado en los 60s con la 
+                creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, 
+                y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, 
+                el cual incluye versiones de Lorem Ipsum.
+            </p>
+        </article>
+        <article>
+            <h3>titulo segundo article de noticias</h3>
+            <p>
+                ¿Qué es Lorem Ipsum?
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas y 
+                archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar
+                de las industrias desde el año 1500, cuando un impresor
+                (N. del T. persona que se dedica a la imprenta)
+                desconocido usó una galería de textos y los mezcló de tal manera que logró
+                hacer un libro de textos especimen. No sólo sobrevivió 500 años,
+                sino que tambien ingresó como texto de relleno en documentos electrónicos,
+                quedando esencialmente igual al original. Fue popularizado en los 60s con la 
+                creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, 
+                y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, 
+                el cual incluye versiones de Lorem Ipsum.
+            </p>
+        </article>
+    </section>
+    <section name="colaboradores">
+        <h2>Empresas Colaboradoras</h2>
+        <a href="https://www.microsoft.com/es-es" target="_blank">
+            <img src="img/Microsoft_logo.svg.png" alt="logo microsoft empresa desarrollo" >
+        </a>
+        <a href="https://www.google.com/" target="_blank">
+            <img src="img/el-logo-g-de-google.png" alt="logo google empresa desarrollo">
+        </a>
+        <a href="https://www.apple.com/es/" target="_blank">
+            <img src="img/Logo_Apple.gif" alt="logo apple empresa desarrollo">
+        </a>
+    </section>
+    
+    
+    <footer>
+        <p>
+            <address>“C. San Vicente Paul, 32,
+            23740 Andújar, Jaén”
+            </address>
+        </p>
+        <p>
+            <a href="mailto:info@diw.com">info@diw.com</a>
+        </p>
+        <p>
+            +34123456789
+        </p>
+    </footer>
+</body>
+</html>

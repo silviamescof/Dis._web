@@ -1,9 +1,11 @@
 .banner{
     width: 100%;
     height: 1000px;
+    text-decoration: none;
 }
 div.menu{
     height: 1000px;
+    text-decoration: none;
 }
 div.menu ul{
     height: 100%;
@@ -11,6 +13,7 @@ div.menu ul{
     text-decoration: none;
     padding-left: 5%;
     padding-top: 4%;
+    text-decoration: none;
     
 }
 ul.menu li{
@@ -19,12 +22,23 @@ ul.menu li{
     text-align: center;
     font-size: 6em;
     font-family: fantasy;
-    color: black;
+    color: rgb(10, 10, 10);
     padding-top: 1em;
+    text-decoration: none;
     
 }
 div.datospersonales{
     width: 100%;
     background-color: black;
+    text-decoration: none;
 }
-
+.academica{
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+}
+p{
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
