@@ -1,0 +1,65 @@
+.container{
+    background-color: rgb(224, 220, 220);
+    height: 450px;
+    margin-left: 4%;
+    margin-top: 10%;
+    margin-right: 4%;
+}
+.container h1{
+    text-align: center;
+    font-family: Arial;
+    word-spacing: 0.3em;
+    letter-spacing: 0.2em;
+    vertical-align: middle;
+    padding-top: 2%;
+}
+.html{
+    overflow: auto;
+}
+.html h2{
+    background-color: rgb(156, 152, 152);
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 1%;
+    font-family: Arial;
+    color: white;
+}
+.css h2{
+    background-color: rgb(156, 152, 152);
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 1%;
+    font-family: Arial;
+    color: white;
+}
+.html img{
+    width: 8%;
+    margin-left: 7%;
+    float: left;
+    margin-right: 1%;
+}
+.css img{
+    width: 7%;
+    margin-left: 7%;
+    float: left;
+    margin-right: 1%;
+}
+p{
+    font-size:0.74em ;
+    margin-right: 10%;
+    margin-left: 7%;
+    text-align: justify;
+    text-indent: 4%;
+    letter-spacing:-0.5px;
+
+}
+mark{
+    background-color: white;
+    font-weight: bold;
+}
+.abc{
+    background-color:rgb(224, 220, 220);
+    font-weight: normal;
+    font-style: italic; 
+    color: red;
+}
