@@ -1,0 +1,38 @@
+h1{
+    border: solid black;
+    text-align: center;
+    padding: 0.5%;
+}
+p:nth-child(1){
+
+    border-left:5px double red;
+    border-top:5px double red;
+}
+p:nth-child(2){
+    border-left: solid 20px green;
+    border-top: dashed 5px blue;
+    border-right: solid 5px green;
+    border-bottom: dashed 20px blue;
+}
+p:nth-child(3){
+    border-left: 2px double yellow;
+    border-top: 20px double yellow;
+    border-right: 2px double yellow;
+    border-bottom: 20px double yellow;
+}
+p:nth-child(4){
+    border-top: solid 15px green;
+    border-bottom: solid 15px blue;   
+}
+p:nth-child(5){
+    border-left: solid 20px black;
+    border-top: dashed 20px red;
+    border-right: solid 20px black;
+    border-bottom: dotted 20px ;
+}
+p:nth-child(6){
+    border-left: double 20px red;
+    border-top: dotted 5px black;
+    border-right: solid 20px black;
+    border-bottom: dashed 10px black;
+}

@@ -1,0 +1,27 @@
+h1{
+    height: 60px;
+    background-color: rgb(229, 225, 225);
+    color: orange;
+    border-bottom: solid 3px green;
+    padding: 15px 0px 0px 50px;
+    text-align: center;
+}
+#galeria{
+    width: 100%;
+    height: 1080px;
+    background-color: white;
+    margin-left: 36%;
+    padding: 0;
+}
+#filaImagenesUno, #filaImagenesDos, #filaImagenesTres{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 10%;
+    margin: 0;
+    padding: 0;
+
+}

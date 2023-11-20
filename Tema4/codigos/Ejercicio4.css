@@ -1,0 +1,11 @@
+ul{
+    list-style: none;
+}
+li{
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+li::before{
+    content: "😻";
+    padding-right: 2%;
+}

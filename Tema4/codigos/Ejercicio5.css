@@ -1,0 +1,50 @@
+table{
+    border:1px solid black;
+    border-collapse: collapse;
+    font-family: Arial;
+    font-weight:1em;
+    
+}
+tr:first-child{
+    background-color: rgb(234, 231, 231);
+    font-weight: bolder;
+    padding-left: 1%;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  
+}
+tr:nth-child(even){
+    background-color: rgb(247, 247, 173);
+}
+tr:nth-child(2) td:first-child,
+tr:nth-child(3) td:first-child,
+tr:nth-child(4) td:first-child,
+tr:nth-child(5) td:first-child {
+    background-color: rgb(219, 236, 244);
+    font-weight: bold;
+}
+
+tr:nth-child(3) td:first-child::before
+{
+   content: '💲';
+}
+tr:nth-child(5) td:first-child::before{
+    content: '💴';
+}
+tr:nth-child(2) td:first-child::before{
+    content: '💶';
+}
+tr:nth-child(4) td:first-child::before{
+    content: '💷';
+}
+
+
+
+
+
+

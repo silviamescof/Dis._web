@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+body {
+    background-color: pink;
+    flex-direction: column;
+    text-align: justify;
+}
+header{
+    width: 83%;
+    float: right;
+    margin-right: 2%;
+    
+}
+h1{
+    font-family: Pixelify Sans ;
+    font-size: 3em;
+     color: green; /* Color del texto */
+     text-shadow: 2px -6px rgb(109, 234, 109);
+     margin-right: 15%;
+     word-spacing: 0.5em;
+     
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-indent: 20px;
+    font-family: Arial;
+}
+ul{
+    background-color: white;
+    border-radius: 15px;
+    width: 60%;
+    height: 40px;
+    margin-left: 20%;
+    padding-top: 15px;
+    
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+#moras {
+    width: 10%;
+    float: left;
+    height: 1450px;
+    background-image: url(../img/Raspberry_Pi_Logo.svg);
+    background-repeat: repeat-y;
+    background-size: 40%;
+    background-position: center;
+}
+hr{
+    float: right;
+}
+span{
+    color: red;
+    font-weight: bold;
+}
+section {
+    width: 83%;
+    float: right;
+    margin-right: 2%;
+    
+}
+article:nth-child(1){
+    position: relative; 
+    background-color: rgb(240, 187, 217);
+    border: solid 10px rgb(156, 32, 115);
+    font-size: 1.1em;
+    margin-top: 20px;
+    height: auto;
+    overflow: hidden;
+}
+article:nth-child(1) > h3{
+    background-color: rgb(227, 97, 207);
+    margin: 0%;
+    height: 60px;
+    font-weight: bold;
+    font-family: Arial;
+    color: white;
+    font-size: 1.5em;
+    position: relative; 
+    z-index: 1; 
+    
+}
+article:nth-child(1) > img{
+    width: 16%;
+    position: absolute;
+    top: 0;
+    right: 0; 
+    z-index: 1;
+
+}
+
+article:nth-child(2){
+    position: relative; 
+    background-color: rgb(240, 187, 217);
+    border: solid 10px rgb(156, 32, 115);
+    margin-top: 20px;
+    height: 300px;
+    font-size: 1.1em;
+    height: auto;
+    overflow: hidden;
+}
+article:nth-child(2) > h3{
+    background-color: rgb(227, 97, 207);
+    margin: 0%;
+    height: 60px;
+    font-weight: bold;
+    font-family: Arial;
+    color: white;
+    font-size: 1.5em;
+    position: relative; 
+   
+}
+article:nth-child(2) > img{
+    width: 12%;
+    position: absolute;
+    top: 60px;
+    left: 0; 
+    margin: 10px;
+    
+
+}
+article:nth-child(2) > p{
+    width: 78%;
+    margin-left: 20%; 
+}
+
+article:nth-child(3){
+    position: relative;
+    background-color: rgb(240, 187, 217);
+    border: solid 10px rgb(156, 32, 115);
+    font-size: 1.1em;
+    margin-top: 20px;
+    height: auto;
+    overflow: hidden;
+}
+article:nth-child(3) > h3{
+    background-color: rgb(227, 97, 207);
+    margin: 0%;
+    height: 60px;
+    font-weight: bold;
+    font-family: Arial;
+    color: white;
+    font-size: 1.5em;
+    position: relative;
+    text-transform: capitalize;
+}
+article:nth-child(3){
+    height: 300px;
+}
+article:nth-child(3) > img{
+    width: 10%;
+    position: absolute;
+    top:70px;
+    right: 0;
+    
+}
+h3::first-letter{
+    font-size: 2.005em;
+}
+h3:nth-child(2), h3:nth-child(3){
+    text-transform: capitalize;
+}
+
+article p{
+    width: 70%;
+    display: inline-block;
+    
+}
+#linea{
+    border: solid 10px rgb(146, 39, 123);
+    width: 35%;
+    float: right;
+    text-align: right;
+    margin-top: 15px;
+    border-radius: 25px;
+    margin-right: 25%;
+    
+}
+footer {
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin-top: 20px;
+    
+    
+  
+}
+.volver{
+    display: block;
+    font-size: 3em;
+}
