@@ -1,0 +1,14 @@
+:root{
+    --fondooscuro:#b90a0aa4;
+}
+header{
+    background-color: var(--fondooscuro);
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    letter-spacing: 0.3em;
+    
+    ::first-letter{
+        font-size: 1.3em;
+    }
+}
