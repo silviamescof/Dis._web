@@ -1,14 +1,113 @@
 :root{
     --fondooscuro:#b90a0aa4;
 }
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+
+
+/** aqui comienzan los elementos del encabezado*/
 header{
     background-color: var(--fondooscuro);
     color: white;
     text-align: center;
     font-family: Arial;
     letter-spacing: 0.3em;
+    margin: 0 80px;
     
-    ::first-letter{
-        font-size: 1.3em;
-    }
+    
+}
+header::first-letter{
+    font-size: 1.3em;
+}
+h1{
+    margin: 0px;
+    border-bottom: 10px solid white;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+/* aqui comienzan los elementos del cuerpo del documento**/
+section{
+    height: auto;
+    background-color: rgb(224, 203, 201); 
+    margin: 0px 80px;
+    padding-top: 20px;
+    border:0%;
+}
+p{
+    margin: 20px 8px;
+    font-size: 1em;
+    text-indent:20px;
+}
+article{
+    
+    margin:0px 80px;
+    border-left: solid rgb(233, 147, 139) 8px;
+    border-right: double rgb(233,147,139) 20px;  
+}
+h3{
+    background-color: rgb(233, 147, 139); 
+    margin: 10px;
+    color: white;
+    padding-left: 8px;
+    padding-top: 10px;
+    text-transform:capitalize;
+}
+
+ul{
+    width: 85%;
+    height: 200 px;
+    border: solid 5px var(--fondooscuro);
+    margin:0% 5%;
+    overflow: hidden;
+    list-style: none;
+    padding: 2%;
+
+}
+li{
+    display: inline-block;
+    width: 60%;
+    font-size: 1.1em;
+}
+li + li{
+    margin-top: 5%;
+}
+img{
+    width: 200px;
+    float: right;
+    margin-top: -130px;
+    background-color: white;
+}
+
+a{
+    color:black
+}
+pre{
+    width: 50%;
+    overflow: hidden;
+}
+
+footer {
+    height: 60px;
+    margin: 0 6%;
+    background-color: rgb(224, 203, 201) ;
+    border:0;
+    padding-top: 5%;
+}
+footer p{
+    margin: 0;
+    height: 50%;
+    background-color: var(--fondooscuro);
+    text-align: right;
+    padding-right: 5%;
+    color:white;
+}
+footer p:first-child{
+    border-top: solid 10px white;
 }
