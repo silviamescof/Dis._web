@@ -1,0 +1,110 @@
+:root {
+    --left-bg-image: url('./fondos/corazon-1.svg');
+    --right-bg-image: url('./fondos/corazon-2.svg');
+    --manchas: url('./fondos/manchas.png');
+    --tallos: url('./fondos/tallos.jpg');
+    --hexagonos: url('./fondos/hexagonos.jpg');
+    --estrellas: url('./fondos/estrellas.png');
+    --ojo: url('./fondos/ojo.svg');
+    --caballo: url('./fondos/caballo.svg');
+    --background-color: rgb(245, 213, 218);
+  }
+  div{
+    width: 100%;
+    height: auto;
+    background-size:10% 10%; /* Ajusta los valores según tus necesidades */
+    background-color: var(--background-color);
+    background-image: 
+      linear-gradient(to left, var(--background-color) 10%, transparent 10%),
+      linear-gradient(to right, var(--background-color) 10%, transparent 10%),
+      var(--left-bg-image),
+      var(--right-bg-image);
+    background-position: left top, right top, top left, top right;
+    background-repeat: no-repeat, no-repeat, repeat-y, repeat-y;
+}
+p:first-child{
+    text-align: center;
+    font-weight: bold;
+}
+p:not(:first-child){
+    max-width:80%;
+    height: auto;
+    margin: 0% 12%;
+    margin-top: 10px;
+    border: solid black 3px;
+}
+p:nth-child(2){
+    background-image: var(--manchas);
+    padding: 2% 30%;
+    color:white;
+    font-size: 0.8em;
+    font-weight: bold;
+
+    
+}
+p:nth-child(3){
+    background-image: var(--tallos);
+    padding: 2% 30%;
+    color:yellow;
+    font-size: 0.8em;
+    font-weight: bold;
+
+    
+}
+p:nth-child(4) {
+    position: relative;
+    z-index: 2; /* Aumentado el valor de z-index */
+    padding: 2% 30%;
+    color: red;
+    font-size: 0.8em;
+    font-weight: bold;
+    background-color: var(--background-color);
+
+    /* Hexagonos */
+    background-image: var(--hexagonos);
+    background-repeat: repeat-x;
+    background-size: 100% 100%; /* Ajusta el tamaño de las estrellas según tus necesidades */
+}
+
+p:nth-child(4)::after {
+    content: '';
+    position: absolute;
+    bottom: 0; /* Ajustado a 0 para que no se superponga con el texto */
+    left: 20%;
+    width: 100%;
+    height: 100%; /* Cambiado a 100% para que ocupe toda la altura del elemento */
+    background-image: var(--ojo);
+    background-repeat: no-repeat;
+    background-size: 60% 60%; /* Ajusta el tamaño del ojo según tus necesidades */
+    z-index: 1; /* Aumentado el valor de z-index para que esté por debajo del texto */
+}
+p:nth-child(5) {
+    position: relative;
+    z-index: 1;
+    padding: 2% 30%;
+    color: green;
+    font-size: 0.8em;
+    font-weight: bold;
+    background-color: var(--background-color);
+
+    /* Estrellas */
+    background-image: var(--estrellas);
+    background-repeat: repeat-x;
+    background-size: 100% 100%; /* Ajusta el tamaño de las estrellas según tus necesidades */
+
+    /* Caballo */
+    position: relative;
+    overflow: hidden;
+}
+
+p:nth-child(5)::after {
+    content: '';
+    position: absolute;
+    bottom: -90%;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Cambiado a 100% para que ocupe toda la altura del elemento */
+    background-image: var(--caballo);
+    background-repeat: repeat-x; /* Ajustado a "repeat-x" para repetir horizontalmente */
+    background-size: 8% 8%; /* Ajusta el tamaño del caballo según tus necesidades */
+}

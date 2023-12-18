@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'personalizada';
+    src: url("./movil-plantilla/movil-plantilla/rye.woff");
+}
+html{
+    background-color: black;
+}
+body {
+    margin: 0 auto;
+    padding: 0%;
+    border: 0;
+    width: 80%;
+    height: 100vh;
+    
+}
+#fondo{
+    background: linear-gradient(to bottom, #F87833, #F8BA33);
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    width: 100%;
+}
+#imagenes{
+    background-image: url("./movil-plantilla/movil-plantilla/movil-1f4f1.svg"),
+                url("movil-plantilla/movil-plantilla/fijo-1f4de.svg") ;
+    background-size: 5%;
+    background-repeat: repeat-y, repeat-y;
+    background-position: left top, right top;
+}
+#contenido{
+    width: 80%;
+    margin-left: 10%;
+}
+header >h1{
+    text-transform: uppercase;
+    font-family: 'personalizada';
+    word-spacing: 1em;
+    text-align:center;
+    color: #F8BA33;
+}
+header > nav {
+   background-color: white;
+   height: 40px;
+   border: solid 2px black;
+}
+header > nav > a{
+    display: inline-block;
+    font-size: 0.7em;
+    margin: 2% 1%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+header > nav > a::first-letter{
+    font-size: 1.5em; 
+}
+header > p{
+    width: 80%;
+    margin-left: 10%;
+}
+hr{
+    width: 60%;
+    height: 7px;
+    background-color: #F8BA33;
+}
+article{
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+h1:not(header > h1){
+    background-color: black;
+    border-radius: 10px 10px 0 0;
+    color:white;
+}
+article > p{
+    margin: 1%;
+    margin-bottom: 3%;
+    text-indent: 6%;
+}
+#segundo > img{
+    float: left;
+    width: 17%;
+    margin: 1.5% ;
+}

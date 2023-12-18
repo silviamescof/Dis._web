@@ -1,0 +1,104 @@
+header{
+    background-color: rgb(159, 205, 159);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+nav{
+    float: left;
+    width: 20%;
+    background-color: rgb(219, 253, 167);
+    border-radius: 10px;
+    margin: 0.5%;
+}
+nav > select{
+    display:none;
+}
+article{
+    margin: 0.5%;
+    width: 23%;
+    float:left;
+    background-color: rgb(190, 210, 242);
+    border-radius: 10px;
+    padding: 0% 1%;
+    box-sizing: content-box;
+    color: white;
+}
+footer{
+    background-color:rgb(159, 205, 159); ;
+    clear: both;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+@media only screen and (min-width: 600px) and (max-width: 1279px) {
+    /* Estilos para dispositivos con ancho de pantalla entre 600px y 1279px */
+    nav > select{
+        display:none;
+    }
+    article{
+        margin: 0.5%;
+        width: 35%;
+        float:left;
+        background-color: rgb(190, 210, 242);
+        border-radius: 10px;
+        padding: 0% 1%;
+        box-sizing: content-box;
+        color: white;
+    }
+    article:last-child{
+        margin:2% 0.5%;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+    nav > select{
+        display:none;
+    }
+    nav{
+        display: inline-block;
+        width: 20%;
+        background-color: rgb(219, 253, 167);
+        border-radius: 10px;
+        margin: 0.5%;
+    }
+    article{
+        margin: 3% 10% 3% 3%;
+        width: 60%;
+        float:right;
+        background-color: rgb(190, 210, 242);
+        border-radius: 10px;
+        padding: 0% 1%;
+        box-sizing: content-box;
+        color: white;
+    }
+
+}
+@media only screen and (min-width: 1px) and (max-width: 480px)  {
+    header > p{
+        display: none;
+    }
+    nav > ul{
+        display: none;
+    }
+    nav > select{
+        display:block;
+        margin: 2%;
+    }
+
+    nav{
+        width: 98%;
+        background-color: rgb(219, 253, 167);
+        border-radius: 10px;
+        margin: 0.5%;
+    }
+    article{
+        margin: 3%;
+        width: 93%;
+        background-color: rgb(190, 210, 242);
+        border-radius: 10px;
+        padding: 0% 1%;
+        box-sizing: content-box;
+        color: white;
+    }
+}

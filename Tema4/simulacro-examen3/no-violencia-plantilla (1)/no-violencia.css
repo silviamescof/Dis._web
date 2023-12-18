@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    text-align: justify;
+}
+#contenido{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    background-color:aquamarine ;
+}
+p{
+    text-indent: 20px;
+}
+#primerparrafo > h1{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: black 5px -5px 2px;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 8px;
+}
+#primerparrafo > p:first-of-type{
+    position: relative;
+    padding: 10px 20px;
+   margin:0px 150px;
+   border-left: solid green 8px;
+   border-right: solid green 8px;
+}
+#primerparrafo > p:nth-child(3){
+    position: relative;
+    padding: 10px 20px;
+   margin:0px 150px;
+   border-left: solid green 8px;
+   border-right: solid green 8px;
+}
+#primerparrafo > p:nth-child(3):after{
+    position:absolute;
+    bottom:-1px;
+    left:135px;
+    width:70%;
+    border-bottom: 8px solid green;
+    content:" ";
+
+}
+#segundoparrafo{
+    overflow: hidden;
+    position: relative;
+    padding: 10px 20px;
+   margin:20px 40px;
+}
+#segundoparrafo > h2{
+    float: right;
+    margin-right: 60%;
+}
+#segundoparrafo > img{
+    float: left;
+    margin-right: 3%;
+} 
+#segundoparrafo > p:nth-child(4){
+    overflow: hidden;
+    position: relative;
+    padding-right: 14%;
+}
+#segundoparrafo > p > img{
+    position:absolute;
+    width: 15%;
+    top:-18%;
+    left: 84%;
+    margin-left: 10px;
+    
+}
+.decorado{
+    -webkit-text-decoration:double underline;
+            text-decoration:double underline;
+    color: red;
+}
+.nodecorado{
+    text-decoration: none;
+}
+#segundoparrafo > p:last-of-type::after{
+    position:absolute;
+    bottom:-1px;
+    left:150px;
+    width:70%;
+    border-bottom: 8px solid green;
+    content:" ";
+}
+.caja{
+    text-decoration:none ;
+    color: black;
+    border:solid 1px black;
+}
+#tercerparrafo{
+    overflow: hidden;
+    position: relative;
+    padding: 10px 20px;
+   margin:20px 40px;
+}
+#tercerparrafo > h2{
+    clear: both;
+}
+
+#tercerparrafo > img:nth-child(2){
+    width: 15%;
+    float: right;
+    margin: 0px 20px;
+}
+#tercerparrafo > p:nth-child(4){
+    width: 90%;
+    padding-left: 12%;
+}
+#tercerparrafo > p:nth-child(4)>img{
+    width: 10%;
+    position:absolute;
+    left: 25px;
+    top:150px;
+}
+#tercerparrafo > p:nth-child(5){
+    margin-right: 10px;
+    width: 100%;
+    position: relative;
+}
+#tercerparrafo > p:nth-child(5)::after{
+    position:absolute;
+    bottom:-20px;
+    left:1px;
+    width:120%;
+    border-bottom: 8px solid green;
+    content:" ";
+}
+footer{
+    overflow: hidden;
+    position: relative;
+    padding: 10px 60px; 
+
+}

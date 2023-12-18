@@ -1,0 +1,166 @@
+/*HOJA ESTILOS EXAMEN */
+/*  FUENTES */
+@font-face {
+    font-family: 'personalizada';
+    src: url("../css/rye.woff");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Flex:opsz@8..144&display=swap');
+
+/*  CUERPO DE LA PÁGINA */
+
+body{
+    margin:0 auto ;
+    width: 960px;
+}
+#fondo{
+    background: linear-gradient(to bottom, #FC7416, #FAA761);
+}
+/*No entiendo por que no se ve*/
+#imagenes{
+    background-image: url("../img/movil-1f4f1.svg") , url("../img/fijo-1f4de.svg");
+    background-size: 8%, 8%;
+    background-repeat: repeat-y, repeat-y;
+    background-position: top left , top right;
+}
+#contenido{
+    width: 70%;
+    margin:15%;
+}
+
+/*  CABECERA O TÍTULO*/
+h1{
+    font-family: 'personalizada';
+    text-transform: uppercase;
+    font-size: 2.6em;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #FAA761;
+}
+header > nav {
+    background-color: white;
+    height: 50px;
+    color: black;
+    border-top: solid gray 5px;
+    border-left: solid gray 5px;
+    border-bottom: solid black 5px;
+    border-right: solid black 5px;
+}
+/* MENÚ  */
+nav > ul {
+    text-decoration: none;
+    color: black;
+}
+nav > ul > li {
+    display: inline-block;
+    width: 15%;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.7em;
+    color: black;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a::first-letter{
+    font-size: 5em;
+}
+header > p{
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+
+/* LINEAS HORIZONTALES */
+
+
+hr {
+    width: 60%;
+    height: 8px;
+    background-color: #FAA761;
+    margin: 3% 20%;
+}
+
+
+/* ARTÍCULOS */
+
+
+h2{
+    border-radius: 10px 10px 0px 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    color: gray;
+    font-size: 1.5em;
+    padding: 1%;
+    letter-spacing: 0.1em;
+}
+article{
+    height: auto;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    padding-bottom: 3%;
+}
+p{
+    margin-bottom: 2%;
+}
+#segundo > img{
+    float: left;
+    width: 20%;
+    margin: 1%;
+}
+#cuarto >img{
+    float: right;
+    width: 26%;
+    margin: 1%;
+}
+
+article > p{
+    margin: 1% 1%;
+    line-height: 1.5em;
+    text-indent: 2em;
+}
+article:last-child{
+    margin-bottom: 8%;
+}
+b {
+    color: #FC7416;
+}
+
+
+/* PIE DE PÁGINA */
+
+
+footer {
+    border-top: solid 8px yellow;
+    padding-bottom: 1.5%;
+}
+footer > p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+.footer{
+    color: blue;
+    font-size: 0.8em;
+    border-bottom: solid 1px blue;
+
+}
+/* INTRODUCCIÓN */
+
+
+/* IMÁGENES */
+
+/* OTRAS DECLARACIONES */
+span{
+    font-size: 2em;
+}

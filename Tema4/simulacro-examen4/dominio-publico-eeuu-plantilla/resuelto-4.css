@@ -1,0 +1,111 @@
+@font-face {
+    font-family: personalizada;
+    src: url("./dominio-publico-eeuu-plantilla/css/silkscreen.woff2");
+}
+html{
+    background-color: black;
+    
+}
+body{
+    margin: 0% auto;
+    width: 100%;
+    background-color: rgb(245, 178, 149);
+    background-image: url('./dominio-publico-eeuu-plantilla/img/copyright.svg'), url('./dominio-publico-eeuu-plantilla/img/public-domain.svg'),
+    url("./dominio-publico-eeuu-plantilla/img/logo-pdd-2023.svg");
+    background-repeat: repeat-y, repeat-y, no-repeat;
+    background-size: 5%, 5%, 8%;
+    background-attachment: scroll, scroll, fixed;
+    background-position: left top, right top, 100px 40px ;
+}
+header{
+    width: 70%;
+    margin-left: 15%;
+}
+header > h1{
+    font-family: personalizada;
+    text-align: center;
+    text-shadow: 2px -2px 0px white;
+}
+nav{
+    width: 70%;
+    margin-left: 15%;
+    
+}
+nav > ul{
+    list-style: none;
+    color: white;
+    text-align: center;
+}
+nav > ul > li{
+    display: inline-block;
+}
+nav > ul > li:not(:first-child)::before{
+    content: "-";
+    color: black;
+}
+section{
+    width: 70%;
+    margin-left: 15%;
+}
+article{
+    border-radius: 15px 0px 0px 0px;
+    background-color: bisque;
+    border:solid black 5px;
+    margin: 5% 0%;  
+}
+h1:not(header > h1){
+    margin: 0%;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    border-radius: 10px 0px 0px 0px;
+}
+span {
+    float: left;
+    font-size: 5em;
+}
+mark{
+    background-color: white;
+}
+
+article:nth-child(2){
+    overflow: hidden;
+}
+p{
+    margin:2% 1%;
+}
+u {
+    text-decoration: none;
+    border-bottom: dashed black 2px;
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+b {
+    color: red;
+}
+article:nth-child(2) > img{
+    width: 20%;
+    float: right ;
+    border-radius: 10px;
+    margin:2%;
+
+}
+article:nth-child(3){
+    overflow: hidden;
+}
+article:nth-child(3) > img{
+    width: 20%;
+    float: left ;
+    border-radius: 10px;
+    margin:2%;
+}
+
+footer{
+    width: 80%;
+    margin-left: 15%;
+}
+footer > p {
+    margin-left: 68%;
+}

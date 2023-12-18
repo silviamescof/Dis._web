@@ -1,0 +1,104 @@
+html{
+    background-color: black;
+}
+body{
+    padding-left: 2%;
+    margin:0% auto;
+    width: 80%;
+    background-color: white;
+    background-image:url("./flag-netherlands-1f1f3-1f1f1.svg"),url("./cheese-wedge-1f9c0.svg" ) ;
+    background-repeat: repeat-y , repeat-y;
+    background-position:4% 0% , 97% 0%;
+    background-size: 5% , 5%;
+}
+header{
+    width: 60%;
+    margin-left: 15%;
+    color: white;
+}
+h1{
+    letter-spacing: 7px;
+    
+}
+.first{
+    font-weight: bold;
+    color: black;
+}
+#contenido{
+    width: 80%;
+    margin-left: 10%;
+    background-color: red;
+        
+}
+#flotante{
+    padding: 0%;
+    font-size: 0.7em;
+    width: 15%;
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 10%;
+    top: 2.3%;
+
+}
+#flotante > blockquote{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+.rojo{
+    color: red;
+}
+.azul{
+    color: blue;
+}
+.amarillo{
+    color:yellow;
+}
+.rosa{
+    color:purple;
+}
+blockquote >p{
+    text-align: right;
+}
+section{
+    width: 80%;
+    margin-left: 10%;
+}
+section::after {
+    content: "";
+    clear: both;
+}
+article{
+    width: 80%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 1%;
+    padding: 3%;
+}  
+#primero {
+    float: left;
+}
+#segundo {
+    margin: 5% 0%;
+    float: right;
+}
+#tercero {
+    margin: 5% 0%;
+    float: left;
+}
+#cuarto{
+    margin: 5% 0%;
+    float: right;
+}
+hr{
+    border-radius: 10px;
+    width: 33%;
+    height: 10px;
+    background-color: white;
+}
+a{
+    background-color: white;
+    margin-left: 47%;
+}
