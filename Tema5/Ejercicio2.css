@@ -1,0 +1,57 @@
+header{
+    text-align: center;
+}
+nav{
+    width: 22%;
+    display: inline-block;
+    background-color: aquamarine;
+    margin-left: 3%;
+}
+article{
+    float: right;
+    width:35%;
+    background-color: aquamarine;
+    margin: 0% 1%;
+}
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+    header{
+        text-align: center;
+    }
+    nav{
+        width: 22%;
+        background-color: aquamarine;
+        margin-left: 3%;
+        float: left;
+    }
+    
+    article{
+        float: right;
+        width:70%;
+        background-color: aquamarine;
+        
+    }
+    article:last-child{
+        margin-top: 6%;
+    }
+
+}
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+    header{
+        text-align: center;
+    }
+    nav{
+        width: 90%;
+        background-color: aquamarine;
+        margin-left: 3%;
+    }
+    
+    article{
+        width: 90%;
+        background-color: aquamarine;
+        margin-top: 3%;
+        margin-right: 7%;
+    }
+    
+
+
+}
