@@ -1,0 +1,104 @@
+body{
+    margin: 0% auto;
+    padding: 0%;
+    background-color: rgb(79, 78, 98);
+    display: inline-block;
+
+}
+.contenedorPrincipal{
+    width: 98%;
+    margin-left: 1%;
+}
+nav{
+    background-color: rgb(213, 211, 211);
+    margin: 0%;
+}
+nav ul{
+    margin: 0%;
+    height: 50px;
+    padding-top: 1.8%;
+    
+}
+nav li{
+    display:inline-block;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(69, 68, 68);
+    font-size: 1.5em;
+
+}
+nav li:not(:first-child){
+    margin-left: 5%;
+}
+img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+section{
+    max-width: 100%;
+    background-color: white;
+    margin: 0%;
+    padding: 3%;
+}
+section > h1{
+    margin: 0%;
+    padding: 0%;
+}
+aside{
+    width: 30%;
+    height: 200px;
+    background-color: aqua;
+    float: left;
+    font-size: 0.96em;
+}
+h2{
+    margin: 5% 8%;
+}
+ul{
+    list-style: none;
+}
+aside li{
+    width: 80%;
+    border-bottom: solid black 3px;
+    margin: 3% 0%;
+}
+main{
+    width: 70%;
+    float: left;
+}
+footer{
+    background-color: rgb(220, 71, 121);
+    width: 70%;
+    margin: 0%;
+    height: 100px;
+    padding-top: 5%;
+    clear: both;
+}
+footer > p {
+    margin: 0% 45%;
+    color:white;
+}
+@media only screen and (min-width: 0px) and (max-width: 799px) {
+
+    body{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    h2{
+        margin: 2% 5.5%;
+    }
+    aside li{
+        width: 90%;
+        margin: 1% 0%;
+    }
+}
