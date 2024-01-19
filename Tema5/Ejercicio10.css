@@ -1,0 +1,13 @@
+.centrado{
+    background-color: rgb(169, 182, 193);
+    color: white;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+}
+.contenido{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 1px;
+    row-gap: 1px;
+}

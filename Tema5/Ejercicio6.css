@@ -1,0 +1,12 @@
+li{
+    background-color: rgba(123,198,199,0.8);
+    width:35%;
+    font-family: sans-serif;
+    margin: 0.5%;
+   
+}
+.contenido{
+    display:flex;
+    width: 100%;
+    list-style: none;
+}

@@ -1,0 +1,47 @@
+.contenido {
+    width: 40%;
+    display: grid;
+    grid-template-areas:
+      "celda1 celda1 celda1"
+      "celda2 celda3 celda4"
+      "celda2 celda5 celda6";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 20vh;
+  }
+  
+  .celda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(137, 157, 174);
+    color: white;
+    margin: 1px;
+  }
+  
+  .celda1 {
+    grid-area: celda1;
+  }
+  
+  .celda2 {
+    grid-area: celda2;
+  }
+  
+  .celda3 {
+    grid-area: celda3;
+  }
+  
+  .celda4 {
+    grid-area: celda4;
+  }
+  
+  .celda5 {
+    grid-area: celda5;
+  }
+  
+  .celda6 {
+    grid-area: celda6;
+  }
+  
+
+  

@@ -1,0 +1,29 @@
+.contenido{
+    display: flex;
+    font-family: sans-serif;
+    width: 100%;
+}
+.sidebar{
+    width: 12.5%;
+    background-color: rgb(188, 228, 251);
+    margin: 2px;
+    padding: 12px 24px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+.principal{
+    width:83.5%;
+    background-color: rgb(223, 247, 242);
+    margin: 2px;
+    padding: 12px 24px;
+    height: 100vh;
+}
+ul{
+    width: 100%;
+    list-style-type: none;
+}
+li{
+    border-bottom: 1px solid gray;
+}

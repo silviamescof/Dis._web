@@ -1,0 +1,20 @@
+.contenido{
+    display: flex;
+    font-family: sans-serif;
+    width: 100%;
+}
+.sidebar{
+    width: 25em;
+    background-color: rgb(188, 228, 251);
+    margin: 2px;
+    padding: 12px 24px;
+    height: 100vh;
+
+}
+.principal{
+    width:75%;
+    background-color: rgb(223, 247, 242);
+    margin: 2px;
+    padding: 12px 24px;
+    height: 100vh;
+}

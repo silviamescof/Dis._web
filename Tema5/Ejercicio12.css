@@ -1,0 +1,32 @@
+.contenido {
+    width: 40%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    height: 20vh;
+  }
+  
+  .celda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+    background-color: rgb(137, 157, 174);
+    color: white;
+  }
+  
+  .celda1 {
+    grid-column: span 3; /* Ocupa 100% horizontal */
+    grid-row: span 1; /* Ocupa 33% vertical */
+  }
+  
+  .celda2 {
+    grid-column: span 1; /* Ocupa 33% horizontal */
+    grid-row: span 2; /* Ocupa 66% vertical */
+  }
+  
+  .celda3, .celda4, .celda5, .celda6 {
+    grid-column: span 1; /* Ocupa 33% horizontal */
+    grid-row: span 1; /* Ocupa 33% vertical */
+  }
+  

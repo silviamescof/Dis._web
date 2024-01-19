@@ -1,0 +1,10 @@
+div{
+    width: 300px;
+    height: 300px;
+    font-family: sans-serif;
+    background-color: rgba(193,219,210,1.00);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
