@@ -1,0 +1,172 @@
+body{
+    margin: 0 auto;
+    max-width: 1280px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+/*__________N   O   R   M  A  S      D  E  L      N  A  V ________ */
+nav{
+    float:left;
+    width: 30%;
+}
+.logonav{
+    margin: 30% 0% 60% 0%;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.menunav > a{
+    display: block;
+    margin: 20% 0% 0% 15%;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+.contacto{
+    margin-top: 60%;
+}
+.contacto a{
+    display: block;
+    margin: 20% 0% 0% 15%;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+
+/*__________N  O  R  M  A  S       D  E  L       H  E  A  D  E  R_______*/
+.iconobarras{
+    display: none;
+}
+.header {
+    padding: 2% 0%;
+    text-align: right;
+    font-size: 1.5em;
+    display: flex;
+}
+.header > span {
+    float: left;
+}
+.iconos {
+    width: 30%;
+  margin-left: 60% ;
+  font-weight: 2em;
+}
+.iconos > i{
+    margin-left:10% ;
+}
+
+
+/*__________N  O  R  M  A  S       D  E  L       I  m  a  g  e  H  E  A  D  E  R_______*/
+.imagenHeader{
+    position: relative;
+    width: 100%;
+    float: left;
+}
+.imagenHeader > img{
+    width: 100%;
+}
+.imagenHeader > div{
+    position: absolute;
+    width: 40%;
+    top:50px;
+    left: 100px;
+    background-color: black;
+    opacity: 0.5;
+    color:white;   
+}
+#msg-principal > a{
+    background-color: black;
+    opacity: 0.1;
+    color:white;
+}
+/*__________N  O  R  M  A  S       D  E  L       B  O  D  Y  _______*/
+
+.featureProducts{
+    float: left;
+    color: black;
+    font-weight: bolder;
+}
+.productos{
+    clear: both;
+    display: grid;
+    grid-template-columns:auto auto auto auto ;
+}
+.productos img {
+    width: 100%;
+}
+.productos p{
+    color: black;
+}
+.productos >div >span{
+    position: relative;
+    background-color: black;
+    color:white;
+    padding: 1% 2%;
+    top: -77%
+}
+.productos > div{
+    margin-right: 3%;
+}
+/*__________N  O  R  M  A  S       D  E         S  U  S  C  R  I  B  E  _______*/
+
+.suscribe{
+    background-color: black;
+    color:white;
+    padding: 4% 1%;
+}
+.suscribe > p > input{
+    width: 98%;
+    border-radius: 5px;
+    padding: 1% 0%;
+}
+.suscribe > button{
+    background-color: red;
+    padding: 0.8% 1%;
+    color: white;
+    border-radius: 10px;
+}
+/*__________N  O  R  M  A  S       D  E        F O  O  T  E  R _______*/
+
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(230, 229, 228);
+}
+.formContact p{
+width: 100%;
+}
+.formContact input{
+width: 78%;
+padding: 3% 2%;
+border-radius: 5px;
+margin-left: 3%;
+}
+.formContact button{
+    width: 80%;
+    background-color: black;
+    color: white;
+    padding: 3%;
+    border-radius: 10px;
+    margin-left: 3%;
+}
+.about *{
+    color:black
+}
+footer > div{
+    background-color: black;
+    padding: 3% 0%;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+footer > div >a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    /* Estilos específicos para pantallas de hasta 600px de ancho */
+   
+    }

@@ -1,0 +1,20 @@
+.fila1{
+    background-color: greenyellow;
+    height:50px;
+}
+.fila2{
+    background-color: rgb(190, 87, 151);
+    height:50px;
+}
+.fila3{
+    background-color: rgb(250, 222, 173);
+    height:100px;
+}
+.fila4{
+    background-color: rgb(79, 73, 252);
+    height:50px;
+}
+.rojo{
+    background-color: red;
+    height:50px;
+}

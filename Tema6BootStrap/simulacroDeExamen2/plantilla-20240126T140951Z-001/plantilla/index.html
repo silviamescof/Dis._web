@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Examen HTML-CSS Avanzado</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="simulacro2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+<!-- Sidebar/menu -->
+        <nav id="mySidebar">
+            <div class="logonav">
+                 <h1>LOGO</h1>
+            </div>
+            <div class="menunav">
+                <a  href="#" >Shirts</a>
+                <a href="#" >Dresses</a>
+                <a onclick="myAccFunc()" href="javascript:void(0)"  id="myBtn" >
+                    Jeans <i class="fa fa-caret-down"></i>
+                </a>
+                <div id="demoAcc" class="ex-hide  ">
+                    <a href="#" ><i class="fa fa-caret-right" ></i>Skinny</a>
+                    <a href="#" >Relaxed</a>
+                    <a href="#" >Bootcut</a>
+                    <a href="#" >Straight</a>
+                </div>
+                <a href="#" >Jackets</a>
+                <a href="#" >Gymwear</a>
+                <a href="#" >Blazers</a>
+                <a href="#" >Shoes</a>
+            </div>
+            <div class="contacto">
+                 <a href="#footer" >Contact</a> 
+                <a href="#">Newsletter</a> 
+                <a href="#footer"  >Subscribe</a>
+            </div>
+        </nav>
+
+        <!-- Top menu on small screens -->
+        <header class="iconobarras">
+            <span >LOGO</span>
+            <a href="#" ><i class="fa fa-bars"></i></a>
+        </header>
+
+        
+
+        <!-- !PAGE CONTENT! -->
+        <div>   
+            <main>
+    <!-- Top header -->
+                <header class="header">
+                    <span>Jeans</span>
+                    <div class="iconos">
+                        <i class="fa fa-shopping-cart"></i>
+                        <i class="fa fa-search"></i>
+                    </div>
+                </header>
+
+    <!-- Image header -->
+                <div class="imagenHeader">
+                    <img src="img/jeans.jpg" alt="Jeans" >
+                    <div id="msg-principal">
+                        <h2>New arrivals</h2>
+                        <h2>New arrivals</h2>
+                        <h1>COLLECTION 2024</h1>
+                        <a href="#jeans">SHOP NOW</a>
+                     
+                    </div>
+                </div>
+
+                <div class="featureProducts">
+                    <p>Featured Products</p>
+                </div>
+
+        <!-- Product grid -->
+                <div class="productos">
+                    
+                    <div>
+                        <img src="img/jeans1.jpg">
+                        <p>
+                            Ripped Skinny Jeans<br><b>$24.99</b>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="img/jeans2.jpg">
+                        <p>
+                            Mega Ripped Jeans<br><b>$19.99</b>
+                        </p>
+                    </div>
+                    <div >
+                        <img src="img/jeans2.jpg">
+                        <span>New</span>
+                        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+                    </div>
+                    <div >
+                        <img src="img/jeans3.jpg" >
+                        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+                    </div>
+                    <div >
+                        <img src="img/jeans3.jpg" >
+                        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+                    </div>
+                    <div class="ex-relative">
+                        <img src="img/jeans4.jpg" >
+                        <span>Sale</span>
+                        <p>Vintage Skinny Jeans<br><b >$14.99</b></p>
+                    </div>
+                
+                    <div >
+                        <img src="img/jeans4.jpg" >
+                        <p>Vintage Skinny Jeans<br><b>$14.99</b></p>
+                    </div>
+                    <div >
+                        <img src="img/jeans1.jpg">
+                        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+                    </div>
+                </div>
+
+    <!-- Subscribe section -->
+                <div class="suscribe">
+                    <h1>Subscribe</h1>
+                    <p>To get special offers and VIP treatment:</p>
+                    <p><input  type="text" placeholder="Enter e-mail" ></p>
+                    <button type="button">Subscribe</button>
+                </div>
+            </main>    
+    <!-- Footer -->
+            <section class="footer">
+                <div class="formContact">
+                    <h4>Contact</h4>
+                    <p>Questions? Go ahead.</p>
+                    <form action="/action_page.php" target="_blank">
+                        <p><input type="text" placeholder="Name" name="Name" required></p>
+                        <p><input type="text" placeholder="Email" name="Email" required></p>
+                        <p><input type="text" placeholder="Subject" name="Subject" required></p>
+                        <p><input type="text" placeholder="Message" name="Message" required></p>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+
+                <div class="about">
+                    <h4>About</h4>
+                    <p><a href="#">About us</a></p>
+                    <p><a href="#">We're hiring</a></p>
+                    <p><a href="#">Support</a></p>
+                    <p><a href="#">Find store</a></p>
+                    <p><a href="#">Shipment</a></p>
+                    <p><a href="#">Payment</a></p>
+                    <p><a href="#">Gift card</a></p>
+                    <p><a href="#">Return</a></p>
+                    <p><a href="#">Help</a></p>
+                </div>
+
+                <div class="store">
+                    <h4>Store</h4>
+                    <p><i class="fa fa-fw fa-map-marker"></i> Company Name</p>
+                    <p><i class="fa fa-fw fa-phone"></i> 0044123123</p>
+                    <p><i class="fa fa-fw fa-envelope"></i> ex@mail.com</p>
+                    <h4>We accept</h4>
+                    <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
+                    <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+                    <br>
+                    <i class="fa fa-facebook-official "></i>
+                    <i class="fa fa-instagram "></i>
+                    <i class="fa fa-snapchat "></i>
+                    <i class="fa fa-pinterest-p"></i>
+                    <i class="fa fa-twitter "></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            </section>
+            <footer>
+                <div>Examen CSS Avanzado <a href="#" title="Sergio Martos Olmo" >Sergio Martos Olmo</a></div>
+            </footer>    
+            </div>
+
+    <script>
+        // Accordion 
+        function myAccFunc() {
+            var x = document.getElementById("demoAcc");
+            if (x.className.indexOf("ex-show") == -1) {
+                x.className += " ex-show";
+            } 
+            else {
+                x.className = x.className.replace(" ex-show", "");
+            }
+        }
+   </script>
+
+    </body>
+</html>
