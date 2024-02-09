@@ -1,0 +1,204 @@
+body{
+    margin: 0 auto;
+    max-width: 80%;
+    border:solid 15px black;
+    background-color:rgb(250, 246, 242);
+}
+
+/*//////////////////pimer seccion//////////////////////*/
+.intro >header{
+    margin: 0 auto;
+    width: 80%;
+}
+.intro > header >h1{
+    font-size: 12em;
+    font-weight: 100;
+}
+.intro > header > h2{
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 5em;
+    font-weight: 100;
+    text-align: center;
+}
+.summary > p:first-child{
+    width: 33%;
+    margin: 0 auto;
+    font-size: 1.4em;
+    text-align: center;
+    line-height: 2em;   
+    font-weight: 100;
+}
+.summary > p:last-child{
+    width: 33%;
+    margin:0 auto;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 2%;
+}
+.summary > p:last-child  a{
+    color: red;
+}
+.preamble {
+    width: 40%;
+    margin: 0 auto;
+}
+.preamble > h3{
+    border-top: solid 10px black;
+    border-bottom: solid 10px black;
+    text-align: center;
+    padding: 2%;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 5em;
+    
+}
+.preamble p{
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.6em;
+    font-weight: 100;
+    line-height: 1.5em;
+
+}
+.preamble p:not(:first-child){
+    margin-top: 2.5%;
+}
+.preamble p:not(:nth-child(2))::first-letter{
+    margin-left:8%;
+}
+.preamble p:nth-child(2)::first-line{
+    text-transform: uppercase;
+}
+/*///////////////select a desing////////////////////*/
+.design-selection{
+    width: 40%;
+    margin: 0 auto;
+}
+.design-selection > h3{
+    border-top: solid 10px black;
+    border-bottom: solid 10px black;
+    text-align: center;
+    padding: 2%;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 4em; 
+}
+.design-selection li{
+    list-style: none;
+    font-size: 1.5em;
+    font-style: italic;
+     
+}
+.design-selection li:not(:first-child){
+    margin-top: 3%;
+}
+.design-name{
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+.designer-name{
+    float: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;  
+}
+.design-selection li:last-child{
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    padding: 3%;
+    text-transform: uppercase;
+}
+.design-selection li:last-child > a{
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    color:black;
+}
+
+/*////////so what is about??///////////////*/
+.explanation{
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.explanation > h3{
+   width: 100%;
+   float: left;
+   text-transform: uppercase;
+   font-style: italic;
+   text-align: center;
+   font-size: 5em;
+   font-weight: 100;
+}
+.explanation  p{
+    width: 30%;
+    float: left;
+    padding-right: 20%;
+    margin: 0 auto;
+    font-size: 2em;
+}
+.explanation p:nth-child(2){
+    text-align: center;
+}
+
+/*/////////////participation//////////////////////////*/
+
+.participation{
+    clear: both;
+
+}
+.participation >h3{
+    border-top: 10px solid black;
+    margin-top: 10%;
+    font-size: 12em;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+}
+.participation >p{
+    width: 40%;
+    margin: 0 auto;
+    font-size: 2.5em;
+    font-weight: 100;
+}
+.participation p:nth-child(2){
+    border-top: 20px solid black;
+    padding-top: 2%;
+}
+.participation p:nth-child(2)::first-line{
+    text-transform: uppercase;
+}
+.participation p:not(:nth-child(2))::first-letter{
+    margin-left: 10%;
+}
+.participation a{
+    color: red;
+}
+
+/*/////////////requirement/////////////////////////////////*/
+
+.title{
+    border-top: 10px solid black;
+    margin-top: 10%;
+    font-size: 12em;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+}
+.requirements{
+    border-top: solid black 10px;
+    border-bottom: solid black 10px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2em;
+    display: flex;
+}
+.requirements p{
+    flex: 0 1 33.3333; /* Hace que cada párrafo ocupe el mismo espacio */
+    margin: 0 10px;
+}

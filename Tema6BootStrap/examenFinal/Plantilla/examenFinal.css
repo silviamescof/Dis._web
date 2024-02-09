@@ -1,0 +1,158 @@
+/**/
+body{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+h1,h2,h3,h4,h5{
+    font-size:'Karma', serif; ;
+}
+
+/*normas del nav*/
+nav{
+    border-top: solid black 1px;
+}
+nav > div:nth-child(1){
+    float: left;
+    display: inline;
+    padding: 1%;
+    font-size: 2em;
+}
+nav > div:nth-child(2){
+    float:right;
+    display: inline;
+    padding: 2%;
+}
+nav > div:nth-child(2)  a{
+    text-decoration: none;
+    color:black
+}
+nav > div:nth-child(2)  a:hover{
+    color:white;
+    background-color: black;
+}
+/*normas del main */
+
+main{
+    clear: both;
+    border-top: solid black 1px;
+    padding-top: 5%;
+
+}
+article:hover{
+    background-color: rgb(199, 197, 197);
+}
+.display{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+main section img{
+    width: 95%;
+    height: 400px;
+}
+main section h3{
+    font-size: 1.6em;
+    text-align: center;
+}
+main section p{
+    text-align: center;
+}
+
+/*marcapaginas*/
+
+.marcapaginas div{
+    width: 50%;
+    margin:5% auto;
+}
+.marcapaginas > div a{
+    padding: 5%;
+    text-decoration: none;
+    color:black
+}
+.marcapaginas > div a:hover{
+    background-color: black;
+    color: white;
+}
+/*Abouth section*/
+
+.about > h3{
+    text-align: center;
+}
+.about >img{
+    width: 70%;
+    height: 500px;
+    margin: 0 15%;
+}
+.texto > h4,h6{
+    text-align: center;
+}
+.texto >p{
+    text-align: justify;
+    margin-bottom: 5%;
+}
+/*footer*/
+
+footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.primero a{
+    text-decoration: none;
+    color:black
+}
+.segundo li{
+    list-style: none;
+    display: flex;
+}
+.segundo li:not(:first-child){
+    border-top: solid 1px black;
+    padding-top: 8%;
+}
+.segundo img{
+    width: 20%;
+    margin-bottom: 10%;
+}
+.segundo span{
+    
+   width: 100%;
+}
+.tercero span{
+    margin-right: 3%;
+    background-color: rgb(109, 108, 108);
+    color: white;
+}
+.tercero span:hover{
+    background-color: black;
+}
+@media (max-width: 600px) {
+    
+    .display{
+        display: grid;
+        grid-template-columns: auto ;
+    }
+    .about >img{
+        width: 70%;
+        height: 300px;
+        margin: 0 15%;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: auto ;
+    }
+}
+@media (min-width:601px ) and (max-width: 980px) {
+  
+    .display{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .about >img{
+        width: 70%;
+        height: 300px;
+        margin: 0 15%;
+    }
+    
+}

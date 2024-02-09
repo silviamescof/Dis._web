@@ -6,10 +6,10 @@ body{
     display: flex;
 }
 /*__________N   O   R   M  A  S      D  E  L      N  A  V ________ */
-nav{
+/*nav{
     float:left;
     width: 30%;
-}
+}*/
 .logonav{
     margin: 30% 0% 60% 0%;
     font-size: 1.5em;
@@ -166,7 +166,78 @@ footer > div >a{
     color: white;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     /* Estilos específicos para pantallas de hasta 600px de ancho */
    
+    /*__________N   O   R   M  A  S      D  E  L      N  A  V ________ */
+    body {
+        display: initial;
     }
+    
+    nav {
+        width: 100%;
+        background-color: black;
+        color: white;
+        height: 10vh;
+        position: relative;
+    }
+    .menunav > a{
+        display: none;  
+    }
+    .iconobarras{
+        display: inline;
+        color: rgb(252, 250, 250);
+        position: absolute;
+        left:80%;
+        top:35%
+    }
+    .productos{
+        grid-template-columns:auto  ;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: auto;
+        background-color: rgb(230, 229, 228);
+        justify-content: center;
+    }
+    }
+    @media screen and (min-width: 601px) and (max-width: 1000px) {
+        
+      
+        body {
+            display: initial;
+        }
+        
+        nav {
+            width: 100%;
+            background-color: black;
+            color: white;
+            height: 10vh;
+            position: relative;
+        }
+        .menunav > a{
+            display: none;  
+        }
+        .iconobarras{
+            display: inline;
+            color: rgb(252, 250, 250);
+            position: absolute;
+            left:80%;
+            top:35%
+        }
+        .productos{
+            grid-template-columns:auto auto ;
+        }
+        .footer{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: rgb(230, 229, 228);
+            justify-content: center;
+        }
+        }
+        @media screen and (min-width: 1001px)  {
+        nav{
+            float:left;
+            width: 30%;
+        }
+        }

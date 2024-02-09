@@ -1,0 +1,117 @@
+body{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+nav{
+    width: 30%;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.menunav *{
+    display: block;
+}
+.contacto *{
+    display: block;
+}
+.contacto{
+    
+    padding-top: 20%;
+}
+
+#mySidebar a{
+    margin-top: 10%;
+    text-decoration: none;
+    color: black;
+}
+#imagenGrande{
+    width: 100%;
+    float: right;
+}
+header{
+    width: 100%;
+    float: right;
+}
+.iconobarras{
+    display: none;
+}
+.content{
+    width: 70%;
+    float: right;
+    display: grid;
+    grid-template-columns: auto;
+}
+.productos{
+    clear: both;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.content img{
+    width: 98%;
+}
+.header > span{
+    float: left;
+}
+.iconos{
+    float: right;
+}
+.imagenHeader{
+    position: relative;
+}
+#msg-principal{
+    position: absolute;
+    top:50px;
+    left: 50px;
+    color: white;
+    width: 20%;
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.formContact input{
+    width: 80%;
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    nav{
+        width: 30%;
+        display: none;
+        margin: 0 auto;
+        text-align: center;  
+    }
+    .iconobarras{
+        display: initial;
+        background-color: black;
+    }
+    .content{
+        width: 100%;
+        float: initial;
+        
+    }
+    .productos{
+        clear: both;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+  }
+  @media only screen and (max-width:600px) {
+    
+    nav{
+        display: none;  
+    }
+    .iconobarras{
+        display: initial;
+        background-color: black;
+    }
+    .content{
+        width: 100%;
+        float: initial;
+        
+    }
+    .productos{
+        clear: both;
+        display: grid;
+        grid-template-columns: auto ;
+    }
+  }
